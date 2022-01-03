@@ -26,8 +26,8 @@ class bot:
       proxyport = data["proxy_"]["port"]
     except:
       temp={}
-      temp["token"] = input("please enter your dc token for once: ")
-      temp["channel"] = input("please enter the id of the channel: ")
+      temp["token"] = input("please enter your dc token for once:758331253715632158")
+      temp["channel"] = input("please enter the id of the channel:927261022119677955")
       while True:
         temp["proxy"] = input("will you use proxy? [YES/NO]")
         temp["proxy_"] = {}
